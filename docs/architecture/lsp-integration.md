@@ -22,10 +22,10 @@ DSCode implements a full Language Server Protocol (LSP) client using `tower-lsp`
 │   ┌────────────────────────────────┐ │
 │   │ JSON-RPC ↔ nng Bridge          │ │
 │   └───┬────────────────────────────┘ │
-│       │                               │
+│       │                              │
 │   ┌───▼────────┐  ┌───────────────┐  │
-│   │ rust-       │  │ typescript-   │  │
-│   │ analyzer    │  │ language-     │  │
+│   │ rust-      │  │ typescript-   │  │
+│   │ analyzer   │  │ language-     │  │
 │   └────────────┘  │ server        │  │
 │                   └───────────────┘  │
 └──────────────────────────────────────┘
